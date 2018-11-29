@@ -1,16 +1,21 @@
 function shout(string) {
-  return string.toUpperCase()
+  return string.toUpperCase();
 }
 
 function whisper(string) {
-  return string.toLowerCase()
+  return string.toLowerCase();
 }
-
-
-// code is wrong from here
 
 function logShout(string) {
-  return logShout.toUpperCase
+  console.log(string.toUpperCase());
 }
 
-// to here
+function logWhisper(string) {
+  console.log(string.toLowerCase());
+}
+
+function sayHiToGrandma(string) {
+  return `I can't hear you!`
+}
+
+function sayHiToGrandma()
